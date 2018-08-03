@@ -51,7 +51,7 @@ ifeq ($(call is-platform-sdk-version-at-least,20),true)
 LOCAL_CFLAGS += -Wno-error=deprecated-declarations -Wno-error=deprecated
 endif
 LOCAL_CFLAGS += -O0
-
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_EXECUTABLE)
 
 

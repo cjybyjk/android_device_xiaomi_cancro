@@ -199,7 +199,7 @@ service adsprpcd /vendor/bin/adsprpcd
    user media
    group media
 
-service usf-post-boot /system/bin/sh /system/etc/usf_post_boot.sh
+service usf-post-boot /vendor/bin/usf_post_boot.sh
     class late_start
     user root
     disabled

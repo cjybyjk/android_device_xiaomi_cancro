@@ -18,6 +18,7 @@ include $(CLEAR_VARS)
 LOCAL_SRC_FILES := atomic.cpp
 LOCAL_MODULE := libshim_atomic
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
@@ -30,10 +31,12 @@ LOCAL_SHARED_LIBRARIES := libc
 LOCAL_MODULE := libshims_camera
 LOCAL_MODULE_TAGS := optional
 LOCAL_32_BIT_ONLY := true
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
 
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := dso_handle.cpp
 LOCAL_MODULE := libshim_dso_handle
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_VENDOR_MODULE := true
 include $(BUILD_SHARED_LIBRARY)
