@@ -241,10 +241,9 @@ DONT_DEXPREOPT_PREBUILTS := true
 
 # qcom sepolicy
 include device/qcom/sepolicy/sepolicy.mk
-include device/qcom/sepolicy/legacy-sepolicy.mk
 
 # sepolicy
-BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+#BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
 # Shims
 TARGET_LD_SHIM_LIBS := /system/lib/libcutils.so|libshim_atomic.so:/system/vendor/lib/libFaceProc.so|libshim_dso_handle.so:/system/bin/mm-qcamera-daemon|libshims_camera.so
