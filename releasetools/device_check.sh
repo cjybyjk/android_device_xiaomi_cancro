@@ -49,7 +49,7 @@ else
     rm -rf /system/vendor/etc/permissions/android.hardware.consumerir.xml
     rm -rf /system/vendor/lib/hw/consumerir.msm8974.so
     rm -rf /system/vendor/lib/hw/android.hardware.ir@*.so
-    rm -rf /system/vendor/bin/hw/android.hardware.ir@*.so
+    rm -rf /system/vendor/bin/hw/android.hardware.ir@*
     # Remove Mi4 audio configs
     rm -rf /system/vendor/etc/acdbdata/MTP/MTP_Speaker_cal_4.acdb
     rm -rf /system/vendor/etc/mixer_paths_4.xml
