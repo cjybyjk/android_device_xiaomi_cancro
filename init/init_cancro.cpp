@@ -133,6 +133,10 @@ void vendor_load_properties()
     property_override("ro.bootimage.build.fingerprint", "Xiaomi/cancro/cancro:6.0.1/MMB29M/V8.1.6.0.MXDMIDI:user/release-keys");
 
     switch (raw_id) {
+        case 1978:
+            property_override_dual("ro.product.model", "ro.vendor.product.model", "MI 3W");
+            property_set("ro.nfc.port", "I2C");
+            break;
         case 1974:
             property_override_dual("ro.product.model", "ro.vendor.product.model", "MI 4");
             break;
