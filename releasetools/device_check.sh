@@ -79,7 +79,7 @@ fi
 umount /vendor
 umount /system
 
-if [ $RAW_ID == 1978 ] || [ $RAW_ID == 1974 ] || [ $RAW_ID == 1972 ]; then
+if [ $RAW_ID == 1978 ] || [ $RAW_ID == 1977 ] || [ $RAW_ID == 1974 ] || [ $RAW_ID == 1972 ]; then
     # Supported device (Mi3w - 1978 or Mi4 - 1974)
     return 0
 else

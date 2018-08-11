@@ -131,6 +131,11 @@ void vendor_load_properties()
             property_override_dual("ro.product.model", "ro.vendor.product.model", "MI 3W");
             property_set("ro.nfc.port", "I2C");
             break;
+        case 1977:
+            property_override_dual("ro.product.model", "ro.vendor.product.model", "MI 3C");
+            property_set("ro.telephony.default_network", "10");
+            property_set("ro.nfc.port", "I2C");
+            break;
         case 1974:
             property_override_dual("ro.product.model", "ro.vendor.product.model", "MI 4");
             break;
