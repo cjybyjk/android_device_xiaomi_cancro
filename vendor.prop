@@ -87,10 +87,11 @@ persist.timed.enable=true
 persist.sys.wfd.virtual=0
 
 persist.camera.cpp.duplication=false
-camera2.portability.force_api=1
-persist.media.treble_omx=false
-camera.disable_treble=true
+# camera2.portability.force_api=1
+# persist.media.treble_omx=false
+# camera.disable_treble=true
 debug.hwui.use_buffer_age=false
+persist.camera.HAL3.enabled=1
 
 qcom.bluetooth.soc=smd
 ro.bluetooth.hfp.ver=1.7
